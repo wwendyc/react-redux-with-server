@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "webpack -w & nodemon server/app --ignore public",
-    "start": "node server/app"
+    "start": "node server/app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
