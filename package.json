@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "npm": "5.7.0"
+  },
   "scripts": {
     "start:dev": "webpack -w & nodemon server/app --ignore public",
     "start": "node server/app",
