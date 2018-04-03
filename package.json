@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base public",
+    "start:dev": "webpack -w & nodemon server/app --ignore public",
+    "start": "node server/app"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
